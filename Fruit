@@ -1,0 +1,57 @@
+import Foundation
+
+println("Example Fruit Store Inventory")
+//VARIABLES//
+var apples = 5000
+let appleprice = 3
+let oranges = 1000
+let orangeprice = 4
+let pear = 3200
+let pearprice = 1
+let kiwi = 3000
+let kiwiprice = 2
+let totalfruit = (apples) + (oranges) + (pear) + (kiwi)
+var price = (apples) * (appleprice)
+var prices = (oranges) * (orangeprice)
+var pricess = (pear) * (pearprice)
+var pricesss = (kiwi) * (kiwiprice)
+var total = price + prices + pricess + pricesss
+//Print's all Variables
+println("-------------------------------------------")
+println("you have \(totalfruit) Total Fruit" )
+println("-------------------------------------------")
+println("Specifically you have,")
+
+
+println("\(apples) Apples")
+
+println("\(oranges) Oranges")
+
+
+println(" \(pear) Pears")
+
+
+println(" \(kiwi) kiwis")
+
+
+println("-------------------------------------------")
+//=============================================================================================================================
+//Prices
+println("Prices For Fruit:")
+
+println("-------------------------------------------")
+println("Apples: $\(appleprice)")
+println("Oranges: $\(orangeprice)")
+println("pears: $\(pearprice)")
+println ("Kiwi: $\(kiwiprice)")
+println("-------------------------------------------")
+println ("The Apple's are  Worth: $\(price) ")
+println ("The Orange's are  Worth: $\(prices) ")
+println ("The pear's are  Worth: $\(pricess) ")
+println ("The kiwi's are  Worth: $\(pricesss) ")
+//=============================================================================================================================
+//Total
+println("-------------------------------------------")
+println("You can Make a Total Profit of: $\(total).00")
+//=============================================================================================================================
+println("-------------------------------------------")
